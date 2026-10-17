@@ -1,16 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sticker Studio — Make ordinary, iconic.</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;1,6..96,400&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
-  <script type="module" crossorigin src="/assets/index-RgD8A65z.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-DPXGeo4U.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f7f2f0">
+<title>Eiffel — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
 </head>
 <body>
-<div id="root"></div>
-</body>
-</html>
+<div class="grain"></div>
+<header class="topbar">
+  <a class="wordmark" href="#home">eiffel<span>®</span></a>
+  <nav class="nav"><a href="#about">À propos</a><a href="#work">Projets</a><a href="#skills">Expertises</a><a href="#contact">Contact</a></nav>
+  <a class="availability" href="#contact"><i></i> Ouverte aux opportunités</a>
+  <button class="menu-button" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span></button>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="topline"><span>PORTFOLIO PERSONNEL · 2026</span><span>ABIDJAN, CÔTE D’IVOIRE</span></div>
+  <div class="hero-content">
+    <div class="hero-copy">
+      <p class="kicker reveal">BONJOUR, MOI C’EST EIFFEL.</p>
+      <h1 class="reveal">Je transforme<br>la curiosité en<br><em>création.</em></h1>
+      <p class="intro reveal">Étudiante en informatique, attirée par le développement web, les systèmes et les idées qui rendent la technologie plus humaine.</p>
+      <div class="actions reveal"><a class="button" href="#work">Explorer mes projets <span>↘</span></a><a class="underlink" href="#about">En savoir plus ↗</a></div>
+    </div>
+    <div class="hero-art reveal" aria-label="Composition abstraite rose">
+      <div class="blob"></div><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="arch"></div>
+      <div class="big-e">E<span>.</span></div><span class="note note-a">Curiosité<br>en mouvement</span><span class="note note-b">CODE / IDÉES / IMPACT</span><span class="star">✳</span>
+    </div>
+  </div>
+  <div class="bottomline"><span>01 — UN ESPRIT EN CONSTRUCTION</span><a href="#about">DÉFILER ↓</a><span>APPRENDRE. CRÉER. ÉVOLUER.</span></div>
+</section>
+<section class="section" id="about">
+  <div class="label reveal"><span>01</span><i></i><span>QUI JE SUIS</span></div>
+  <div class="about-grid"><h2 class="reveal">La technique<br>avec <em>du sens.</em></h2><div class="about-copy reveal">
+    <p class="lead">Je construis mon chemin dans l’informatique, avec une envie simple : comprendre, expérimenter et créer des choses utiles.</p>
+    <p>J’aime apprendre en pratiquant, décomposer les problèmes et voir une idée prendre forme dans le navigateur ou le terminal. Pour moi, chaque projet est un terrain d’exploration, pas seulement une ligne sur un CV.</p>
+    <a class="text-arrow" href="#contact">Faisons connaissance <span>↗</span></a>
+  </div></div>
+  <div class="manifesto reveal"><span class="quote">“</span><p>Pas besoin de tout savoir pour commencer.<br><em>Il faut commencer pour apprendre.</em></p><span class="signature">— Eiffel</span></div>
+</section>
+<section class="section work" id="work">
+  <div class="label reveal"><span>02</span><i></i><span>SÉLECTION DE PROJETS</span></div>
+  <div class="work-heading reveal"><h2>Des idées qui<br><em>prennent forme.</em></h2><p>Des projets d’apprentissage et des pistes que je développe pour progresser, tester et comprendre.</p></div>
+  <div class="work-list">
+    <article class="work-item reveal"><span class="index">01 / WEB</span><div class="work-main"><h3>Calculatrice<br><em>interactive</em></h3><p>Une interface simple pour pratiquer les événements, les fonctions et la logique JavaScript.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JAVASCRIPT</span></div></div><div class="work-side"><span class="symbol calc">＋<br>−<br>×</span><span class="status">EXERCICE PRATIQUE</span></div></article>
+    <article class="work-item reveal"><span class="index">02 / IMPACT</span><div class="work-main"><h3>Pharmacies de garde<br><em>à Abidjan</em></h3><p>Concept de service web pour aider à trouver plus facilement une pharmacie de garde selon sa zone.</p><div class="tags"><span>WEB</span><span>RESPONSIVE</span><span>EN CONCEPTION</span></div></div><div class="work-side"><span class="symbol map">↗</span><span class="status">IDÉE DE PROJET</span></div></article>
+    <article class="work-item reveal"><span class="index">03 / SYSTÈMES</span><div class="work-main"><h3>Laboratoire<br><em>Linux</em></h3><p>Travaux pratiques autour du terminal, des utilisateurs, des groupes et des permissions.</p><div class="tags"><span>LINUX</span><span>TERMINAL</span><span>SYSTÈMES</span></div></div><div class="work-side"><span class="symbol terminal">$_</span><span class="status">APPRENTISSAGE</span></div></article>
+  </div>
+  <p class="footnote reveal">Les projets ci-dessus sont des exemples de présentation. Remplace-les par tes réalisations réelles et ajoute les liens quand ils sont prêts.</p>
+</section>
+<section class="section" id="skills">
+  <div class="label reveal"><span>03</span><i></i><span>MON TERRAIN DE JEU</span></div>
+  <div class="skills-heading reveal"><h2>En apprentissage,<br><em>en progression.</em></h2><p>Je construis mes bases pas à pas. Voici les outils et domaines que j’explore actuellement.</p></div>
+  <div class="skill-list">
+    <div class="skill reveal"><span>01</span><h3>HTML & CSS</h3><p>Structure, design, responsive</p><b>↗</b></div>
+    <div class="skill reveal"><span>02</span><h3>JavaScript</h3><p>Logique et interactions web</p><b>↗</b></div>
+    <div class="skill reveal"><span>03</span><h3>Linux</h3><p>Terminal, fichiers, permissions</p><b>↗</b></div>
+    <div class="skill reveal"><span>04</span><h3>Git & GitHub</h3><p>Versionnement et publication</p><b>↗</b></div>
+    <div class="skill reveal"><span>05</span><h3>Cybersécurité</h3><p>Découverte des systèmes et réseaux</p><b>↗</b></div>
+  </div>
+</section>
+<section class="section contact" id="contact">
+  <div class="label reveal"><span>04</span><i></i><span>ET MAINTENANT ?</span></div>
+  <div class="contact-main reveal"><p class="kicker">UNE IDÉE, UNE QUESTION, UNE OPPORTUNITÉ ?</p><h2>Écrivons la<br><em>suite ensemble.</em></h2><a class="email" href="mailto:tonadresse@email.com">tonadresse@email.com <span>↗</span></a><p class="hint">Remplace cette adresse par ton e-mail avant la mise en ligne.</p></div>
+  <div class="contact-bottom"><span>ABIDJAN, CÔTE D’IVOIRE</span><span>FAIT AVEC CURIOSITÉ ♡</span><a href="#home">RETOUR EN HAUT ↑</a></div>
+</section>
+</main>
+<footer class="footer"><a class="wordmark" href="#home">eiffel<span>®</span></a><p>Un travail en cours — comme moi.</p><span>© <b id="year"></b> EIFFEL</span></footer>
+</body></html>
